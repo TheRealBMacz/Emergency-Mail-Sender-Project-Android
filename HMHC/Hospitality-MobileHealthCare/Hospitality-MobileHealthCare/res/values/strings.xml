@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hospitality-Mobile Health Care</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_patient">PatientActivity</string>
+    <string name="view_profile">View Profile</string>
+    <string name="title_activity_doctor">DoctorActivity</string>
+    <string name="title_activity_nurse">NurseActivity</string>
+    <string name="title_activity_doctorprofile">DoctorprofileActivity</string>
+    <string name="title_activity_nurseprofile">NurseprofileActivity</string>
+    <string name="title_activity_patientprofile">PatientprofileActivity</string>
+    <string name="title_activity_patientlist">PatientlistActivity</string>
+    <string name="title_activity_nurse_consult">NurseConsultActivity</string>
+    <string name="title_activity_doctor_consult">DoctorConsultActivity</string>
+    <string name="title_activity_patient_results">PatientResultsActivity</string>
+    <string name="title_activity_doctorpatientlist">DoctorpatientlistActivity</string>
+
+</resources>

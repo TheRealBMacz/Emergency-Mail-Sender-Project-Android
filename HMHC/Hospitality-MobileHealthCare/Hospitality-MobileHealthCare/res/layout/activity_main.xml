@@ -1,0 +1,62 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="18dp"
+        android:text="Register Now" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#bbdefb"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="33dp"
+        android:inputType="textPassword"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="UserName" >
+
+        <requestFocus />
+    </EditText>
+    
+</RelativeLayout>
