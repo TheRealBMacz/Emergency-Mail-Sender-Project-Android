@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">EmergencyMail</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_emailsetting">Emailsetting</string>
+<string name="s1">Screen One:</string>
+    <string name="s3i">Instructions :</string>
+    <string name="s3id"> when you got missed calls and messages between  the above saved times,then you got a mail with the details(missed calls and message) like name of called person(if it is already exists contact),phone number ,time of call.</string>
+<string name="howtotext1">Here you can set particular timings for getting the missed calls and unread messages information  via email in a particular day or complete week.</string>
+    <string name="s3"> suppose if you have saved timings from 9.30am to 5.30pm and you have activated current day  then you get  the information of missed calls and text messages for every 5 or 10min  (based on your configuration time) to your saved Email id.</string> 
+</resources>
